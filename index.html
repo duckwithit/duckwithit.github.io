@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101114">
+
+  <title>DuckWithIt - Tweaks for Streamers: Chat Client, Chat Bot & More</title>
+  <meta name="description" content="DuckWithIt - building software, games and tools worth sharing.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="duck.png">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #101114;
+      color: #f4f4f5;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 52px;
+      margin-bottom: 28px;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    .logo img {
+     width: 100px;
+     height: 100px;
+     object-fit: contain;
+     animation: float 4s ease-in-out infinite;
+     }
+
+    h1 {
+      font-size: clamp(42px, 8vw, 68px);
+      font-weight: 800;
+      letter-spacing: -3px;
+      margin-bottom: 18px;
+    }
+
+    h1 span {
+      color: #a3e635;
+    }
+
+    .description {
+      max-width: 480px;
+      margin: 0 auto;
+      color: #a1a1aa;
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-top: 38px;
+      padding: 10px 16px;
+      border: 1px solid #303238;
+      border-radius: 999px;
+      color: #d4d4d8;
+      font-size: 13px;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #a3e635;
+      box-shadow: 0 0 12px #a3e63580;
+    }
+
+    .links {
+      margin-top: 42px;
+    }
+
+    .links a {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 9px;
+      background: #a3e635;
+      color: #171717;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      transition: transform .2s, background .2s;
+    }
+
+    .links a:hover {
+      background: #bef264;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      position: fixed;
+      bottom: 25px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #52525b;
+      font-size: 12px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-9px); }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        letter-spacing: -2px;
+      }
+
+      .description {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <div class="logo">
+      <img src="duck.png">
+    </div>
+
+    <h1>Duck<span>With</span>It</h1>
+
+    <p class="description">
+      We're building software, games and tools worth sharing.
+      From streamer-focused tools to creative projects,
+      there's something interesting on its way.
+    </p>
+
+    <div class="status">
+      <span class="status-dot"></span>
+      Currently building
+    </div>
+
+    <div class="links">
+      <a href="https://github.com/DuckWithIt" target="_blank" rel="noopener noreferrer">
+        Visit our GitHub ↗
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 DuckWithIt. Built with curiosity. Quack the World!
+  </footer>
+</body>
+</html>
