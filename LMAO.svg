@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.2"
+     baseProfile="tiny-ps"
+     width="512" height="512"
+     viewBox="0 0 512 512">
+  <title>DuckWithIt</title>
+  <desc>A cheerful white duck wearing a green propeller cap and tie</desc>
+
+  <!-- Purple background -->
+  <rect width="512" height="512" fill="#6415E8"/>
+
+  <!-- Propeller -->
+  <g fill="#19A441" stroke="#080808" stroke-width="11"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M171 72C145 56 115 70 113 88c-2 16 18 21 42 12l28-16z"/>
+    <path d="M179 70c11-25 39-40 57-33 16 6 13 19 1 29-15 12-37 17-58 14z"/>
+    <circle cx="177" cy="75" r="12"/>
+  </g>
+
+  <!-- Green cap -->
+  <path d="M132 178c-8-39 1-70 26-91 23-20 55-26 85-17 33 10 54 34 64 66l-42 33-94 24z"
+        fill="#19A441" stroke="#080808" stroke-width="12"
+        stroke-linejoin="round"/>
+  <path d="M166 132c29-30 73-41 114-29 20 6 36 13 36 22 0 8-16 14-33 20-38 13-75 24-113 16z"
+        fill="#F6C600" stroke="#080808" stroke-width="11"
+        stroke-linejoin="round"/>
+
+  <!-- Duck silhouette -->
+<path d="M168 130
+         C143 145 131 168 134 191
+         C135 203 140 213 147 221
+         C125 247 112 278 111 315
+         C109 355 117 385 139 402
+         C158 417 184 423 210 423
+         C233 423 248 414 258 400
+         C269 414 286 417 301 408
+         C316 399 319 384 313 369
+         C306 352 306 337 316 323
+         C325 310 341 300 352 285
+         C363 269 368 250 365 231
+         C361 202 346 175 324 154
+         C303 134 277 122 249 121
+         C219 120 190 122 168 130Z"
+      fill="#FFFDF8"
+      stroke="#080808"
+      stroke-width="12"
+      stroke-linejoin="round"/>
+
+  <!-- Bill -->
+  <path d="M341 196
+           C356 194 368 202 382 214
+           C398 227 420 232 443 233
+           C452 234 457 240 453 249
+           C445 266 423 276 398 279
+           C373 282 348 277 329 267
+           C315 260 308 249 310 235
+           C313 216 326 200 341 196Z"
+        fill="#FFCA05" stroke="#080808" stroke-width="11"
+        stroke-linejoin="round"/>
+  <path d="M291 262c29 21 78 27 123 8"
+        fill="none" stroke="#080808" stroke-width="7"
+        stroke-linecap="round"/>
+  <path d="M345 216l10 5"
+        fill="none" stroke="#080808" stroke-width="9"
+        stroke-linecap="round"/>
+
+  <!-- Eye -->
+  <circle cx="236" cy="205" r="25" fill="#173B68"/>
+  <circle cx="243" cy="196" r="8" fill="#FFFFFF"/>
+
+  <!-- Green collar -->
+  <path d="M125 379c21 17 52 27 84 29l20-7 22 13c-14 15-35 22-61 18-37-5-61-22-65-53Z"
+        fill="#19A441" stroke="#080808" stroke-width="10"
+        stroke-linejoin="round"/>
+  <path d="M277 398c17-3 29-13 36-27 9 17 6 34-7 45-9 8-20 10-31 7z"
+        fill="#19A441" stroke="#080808" stroke-width="10"
+        stroke-linejoin="round"/>
+
+  <!-- Tie knot and tie -->
+  <path d="M232 398c5-8 14-12 24-12 11 0 20 5 25 13l-5 17c-10 9-28 10-38 0z"
+        fill="#19A441" stroke="#080808" stroke-width="10"
+        stroke-linejoin="round"/>
+  <path d="M235 415c9 6 22 6 31 0l16 39-26 30-31-27z"
+        fill="#19A441" stroke="#080808" stroke-width="11"
+        stroke-linejoin="round"/>
+</svg>
